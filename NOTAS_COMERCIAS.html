@@ -1,50 +1,46 @@
 ﻿<!doctype html>
-<html lang="pt-BR">
+<html lang='pt-BR'>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
   <title>NOTAS COMERCIAIS</title>
   <style>
-    body{font-family:Arial, Helvetica, sans-serif; background:#f8f9fa; margin:18px; color:#222}
-    .container{max-width:1200px; margin:0 auto; background:#fff; padding:14px; border-radius:6px}
-    .header{display:flex; justify-content:space-between; align-items:flex-start; gap:8px; margin-bottom:12px}
-    .left h1{font-size:20px; margin:0; color:#003300}
-    .right{text-align:right}
-    .right .brand{font-weight:bold; display:block}
-    .controls{display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-bottom:8px}
-    table{width:100%; border-collapse:collapse; font-size:13px; background:#fff;}
-    th{background:#00a86b; color:#fff; padding:8px; border:1px solid #000; text-align:left;}
-    td{padding:8px; border:1px solid #000;}
-    .nota-bold{font-weight:bold;}
-    tbody tr:nth-child(odd){background:#eeeeee}
-    tbody tr:nth-child(even){background:#b2e5d0}
-    select{margin-right:10px; padding:6px; border-radius:4px; border:1px solid #ccc}
-    .counter{font-size:14px; padding:6px; background:#f1f1f1; border-radius:4px}
+    body{font-family:Arial,Helvetica,sans-serif;background:#f8f9fa;margin:18px;color:#222}
+    .container{max-width:1200px;margin:0 auto;background:#fff;padding:14px;border-radius:6px}
+    .header{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:12px}
+    .left h1{font-size:20px;margin:0;color:#003300}
+    .right{text-align:right}.right .brand{font-weight:bold;display:block}
+    .controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+    table{width:100%;border-collapse:collapse;font-size:13px;background:#fff}
+    th{background:#00a86b;color:#fff;padding:8px;border:1px solid #000;text-align:left}
+    td{padding:8px;border:1px solid #000}.nota-bold{font-weight:bold}
+    tbody tr:nth-child(odd){background:#eeeeee}tbody tr:nth-child(even){background:#b2e5d0}
+    select{margin-right:10px;padding:6px;border-radius:4px;border:1px solid #ccc}.counter{font-size:14px;padding:6px;background:#f1f1f1;border-radius:4px}
     @media (max-width:800px){ table, thead, tbody, th, td, tr{display:block} thead{display:none} td{border:none} td:before{font-weight:bold; display:inline-block; width:120px} }
   </style>
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <div class="left"><h1>NOTAS COMERCIAIS</h1></div>
-    <div class="right">
-      <span class="brand">UTD SERIDO</span>
-      <div style="font-size:12px;color:#555;margin-top:4px">Última atualização: 07/11/2025 17:35:24</div>
+<div class='container'>
+  <div class='header'>
+    <div class='left'><h1>NOTAS COMERCIAIS</h1></div>
+    <div class='right'>
+      <span class='brand'>UTD SERIDO</span>
+      <div style='font-size:12px;color:#555;margin-top:4px'>Última atualização: 08/11/2025 12:35:41</div>
     </div>
   </div>
-  <div class="controls">
-    <label>Base: <select id="filtroBase"><option value="">-- Todas --</option></select></label>
-    <label>Cidade: <select id="filtroCidade"><option value="">-- Todas --</option></select></label>
-    <div class="counter" id="contadorTotal">Total: 0</div>
+  <div class='controls'>
+    <label>Base: <select id='filtroBase'><option value=''>-- Todas --</option></select></label>
+    <label>Cidade: <select id='filtroCidade'><option value=''>-- Todas --</option></select></label>
+    <div class='counter' id='contadorTotal'>Total: 0</div>
   </div>
-  <div style="overflow:auto;margin-top:8px">
-    <table id="tblNotas">
+  <div style='overflow:auto;margin-top:8px'>
+    <table id='tblNotas'>
       <thead><tr>
         <th>NOTA</th><th>VENC</th><th>CODIF</th><th>TENSÃO</th><th>CARGA</th><th>CIDADE</th><th>BAIRRO</th><th>RUA</th>
       </tr></thead>
       <tbody>
-        <tr data-base="SANTA CRUZ" data-cidade="JACANA">
-          <td class="nota-bold">4901024040</td>
+        <tr data-base='SANTA CRUZ' data-cidade='JACANA'>
+          <td class='nota-bold'>4901024040</td>
           <td>08/08/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -53,8 +49,8 @@
           <td>ZONA RURAL</td>
           <td>SI LAGOINHA 1</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="JAPI">
-          <td class="nota-bold">4901023833</td>
+        <tr data-base='SANTA CRUZ' data-cidade='JAPI'>
+          <td class='nota-bold'>4901023833</td>
           <td>18/09/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -63,8 +59,8 @@
           <td>ZONA RURAL</td>
           <td>SI LETREIROS 16</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="JACANA">
-          <td class="nota-bold">4901030474</td>
+        <tr data-base='SANTA CRUZ' data-cidade='JACANA'>
+          <td class='nota-bold'>4901030474</td>
           <td>19/09/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -73,8 +69,8 @@
           <td>ZONA RURAL</td>
           <td>SI SERRA DA LAGOA 14</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="JACANA">
-          <td class="nota-bold">4901031175</td>
+        <tr data-base='SANTA CRUZ' data-cidade='JACANA'>
+          <td class='nota-bold'>4901031175</td>
           <td>08/10/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -83,8 +79,8 @@
           <td>ZONA RURAL</td>
           <td>SI CAIONGO 39</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="CAMPO REDONDO">
-          <td class="nota-bold">4901042158</td>
+        <tr data-base='SANTA CRUZ' data-cidade='CAMPO REDONDO'>
+          <td class='nota-bold'>4901042158</td>
           <td>24/10/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -93,8 +89,8 @@
           <td>ZONA RURAL</td>
           <td>SI SAO JOAO 9</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="CAMPO REDONDO">
-          <td class="nota-bold">4901042165</td>
+        <tr data-base='SANTA CRUZ' data-cidade='CAMPO REDONDO'>
+          <td class='nota-bold'>4901042165</td>
           <td>24/10/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -103,8 +99,8 @@
           <td>ZONA RURAL</td>
           <td>SI UMARI DE FORA 8, --E</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="CAMPO REDONDO">
-          <td class="nota-bold">4901039635</td>
+        <tr data-base='SANTA CRUZ' data-cidade='CAMPO REDONDO'>
+          <td class='nota-bold'>4901039635</td>
           <td>03/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -113,8 +109,8 @@
           <td>RAMAL</td>
           <td>PO RAMAL 145</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="JACANA">
-          <td class="nota-bold">4901039649</td>
+        <tr data-base='SANTA CRUZ' data-cidade='JACANA'>
+          <td class='nota-bold'>4901039649</td>
           <td>05/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -123,8 +119,8 @@
           <td>ZONA RURAL</td>
           <td>LG CHA DA BULANDEIRA 6881</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="JACANA">
-          <td class="nota-bold">4901043086</td>
+        <tr data-base='SANTA CRUZ' data-cidade='JACANA'>
+          <td class='nota-bold'>4901043086</td>
           <td>07/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -133,8 +129,8 @@
           <td>FLORES</td>
           <td>SI FLORES 124</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="CAMPO REDONDO">
-          <td class="nota-bold">4501975305</td>
+        <tr data-base='SANTA CRUZ' data-cidade='CAMPO REDONDO'>
+          <td class='nota-bold'>4501975305</td>
           <td>10/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -143,8 +139,8 @@
           <td>SERRA DO DOUTOR</td>
           <td>PO SERRA DO DOUTOR 5600</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="CAMPO REDONDO">
-          <td class="nota-bold">4601490465</td>
+        <tr data-base='SANTA CRUZ' data-cidade='CAMPO REDONDO'>
+          <td class='nota-bold'>4601490465</td>
           <td>10/11/2025</td>
           <td>Alteração Contratual</td>
           <td>TRIF</td>
@@ -153,8 +149,8 @@
           <td>ZONA RURAL</td>
           <td>FZ SAO JOSE 1</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4601503411</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4601503411</td>
           <td>10/11/2025</td>
           <td>Alteração Contratual</td>
           <td>MONO</td>
@@ -163,8 +159,8 @@
           <td>CAICARINHA</td>
           <td>SI PRIMEIRA PASSAGEM 2</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4601496547</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4601496547</td>
           <td>10/11/2025</td>
           <td>Alteração Contratual</td>
           <td>TRIF</td>
@@ -173,8 +169,8 @@
           <td>CENTRO</td>
           <td>RUA DAS TULIPAS 33</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501976799</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501976799</td>
           <td>10/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -183,8 +179,8 @@
           <td>MARACUJA</td>
           <td>RUA ADELVINA ARAUJO DE BARROS 316</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501976807</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501976807</td>
           <td>10/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -193,8 +189,8 @@
           <td>PARAISO</td>
           <td>RUA ANTONIO PEREIRA DOS SANTOS 45</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501960884</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501960884</td>
           <td>10/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -203,8 +199,8 @@
           <td>PARAISO</td>
           <td>RUA SANTO ANTONIO 432</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501979060</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501979060</td>
           <td>10/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>TRIF</td>
@@ -213,8 +209,8 @@
           <td>ZONA RURAL</td>
           <td>SI AROEIRA 2345</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SAO BENTO DO TRAIRI">
-          <td class="nota-bold">4501970713</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SAO BENTO DO TRAIRI'>
+          <td class='nota-bold'>4501970713</td>
           <td>10/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>TRIF</td>
@@ -223,8 +219,8 @@
           <td>ZONA RURAL</td>
           <td>SI CAPOEIRAS 100</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="CAMPO REDONDO">
-          <td class="nota-bold">4801256911</td>
+        <tr data-base='SANTA CRUZ' data-cidade='CAMPO REDONDO'>
+          <td class='nota-bold'>4801256911</td>
           <td>11/11/2025</td>
           <td>Microgeração BT</td>
           <td>MONO</td>
@@ -233,8 +229,8 @@
           <td>ZONA RURAL</td>
           <td>SI RAMAL 2089</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="JAPI">
-          <td class="nota-bold">4501974860</td>
+        <tr data-base='SANTA CRUZ' data-cidade='JAPI'>
+          <td class='nota-bold'>4501974860</td>
           <td>11/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -243,8 +239,8 @@
           <td>QUEIMADAS</td>
           <td>PO QUEIMADAS 71</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="LAJES PINTADA">
-          <td class="nota-bold">4501979605</td>
+        <tr data-base='SANTA CRUZ' data-cidade='LAJES PINTADA'>
+          <td class='nota-bold'>4501979605</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -253,8 +249,8 @@
           <td>BARRO PRETO</td>
           <td>PO BARRO PRETO 37</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4601492706</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4601492706</td>
           <td>11/11/2025</td>
           <td>Mudar Local de Medidor</td>
           <td>MONO</td>
@@ -263,8 +259,8 @@
           <td>ALUIZIO BEZERRA</td>
           <td>RUA DAS HORTENCIAS 91</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501977612</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501977612</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -273,8 +269,8 @@
           <td>CENTRO</td>
           <td>RUA ALUIZIO BEZERRA 38</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4601502937</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4601502937</td>
           <td>11/11/2025</td>
           <td>Alteração Contratual</td>
           <td>MONO</td>
@@ -283,8 +279,8 @@
           <td>CONEGO MONTE</td>
           <td>RUA NOSSA SENHORA DE SANTANA 114</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501973258</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501973258</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -293,8 +289,8 @@
           <td>CONEGO MONTE</td>
           <td>RUA NOSSA SENHORA DESATADORA DE NOS 78</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501975080</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501975080</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -303,8 +299,8 @@
           <td>CONEGO MONTE</td>
           <td>RUA PADRE JOSE MARIA BIEZINGER 45</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501973267</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501973267</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -313,8 +309,8 @@
           <td>JUREMA</td>
           <td>SI SAMAMBAIA 12</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501976278</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501976278</td>
           <td>11/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -323,8 +319,8 @@
           <td>MARACUJA</td>
           <td>RUA JOSE PAULINO DE MEDEIROS 523</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501977620</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501977620</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -333,8 +329,8 @@
           <td>PARAISO</td>
           <td>RUA MANOEL TRAJANO DA COSTA 62</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501979071</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501979071</td>
           <td>11/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -343,8 +339,8 @@
           <td>ZONA RURAL</td>
           <td>SI CAICARINHA 197</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501976253</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501976253</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -353,8 +349,8 @@
           <td>ZONA RURAL</td>
           <td>SI MULUNGU 42</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501976252</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501976252</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -363,8 +359,8 @@
           <td>ZONA RURAL</td>
           <td>SI MULUNGU 42</td>
         </tr>
-        <tr data-base="SANTA CRUZ" data-cidade="SANTA CRUZ">
-          <td class="nota-bold">4501973253</td>
+        <tr data-base='SANTA CRUZ' data-cidade='SANTA CRUZ'>
+          <td class='nota-bold'>4501973253</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -373,8 +369,8 @@
           <td>ZONA RURAL</td>
           <td>SI MULUNGU 42</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="EQUADOR">
-          <td class="nota-bold">4901042567</td>
+        <tr data-base='PARELHAS' data-cidade='EQUADOR'>
+          <td class='nota-bold'>4901042567</td>
           <td>03/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -383,8 +379,8 @@
           <td>ZONA RURAL</td>
           <td>SI FAVELA 127</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="JARDIM DO SERIDO">
-          <td class="nota-bold">4801256913</td>
+        <tr data-base='PARELHAS' data-cidade='JARDIM DO SERIDO'>
+          <td class='nota-bold'>4801256913</td>
           <td>11/11/2025</td>
           <td>Microgeração BT</td>
           <td>TRIF</td>
@@ -393,8 +389,8 @@
           <td>CENTRO</td>
           <td>RUA FRANCISCO CLEMENTINO DE AZEVEDO 137</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="CARNAUBA DOS DANTAS">
-          <td class="nota-bold">4501980043</td>
+        <tr data-base='PARELHAS' data-cidade='CARNAUBA DOS DANTAS'>
+          <td class='nota-bold'>4501980043</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -403,8 +399,8 @@
           <td>ERMO DE CIMA</td>
           <td>PO ERMO DE CIMA 16</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="JARDIM DO SERIDO">
-          <td class="nota-bold">4501973954</td>
+        <tr data-base='PARELHAS' data-cidade='JARDIM DO SERIDO'>
+          <td class='nota-bold'>4501973954</td>
           <td>12/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -413,8 +409,8 @@
           <td>CENTRO</td>
           <td>RUA DOUTOR HERACLIO PIRES 402</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="PARELHAS">
-          <td class="nota-bold">4901037203</td>
+        <tr data-base='PARELHAS' data-cidade='PARELHAS'>
+          <td class='nota-bold'>4901037203</td>
           <td>12/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -423,8 +419,8 @@
           <td>CENTRO</td>
           <td>RUA RAMIRO BEZERRA DA TRINDADE 129</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="PARELHAS">
-          <td class="nota-bold">4601504241</td>
+        <tr data-base='PARELHAS' data-cidade='PARELHAS'>
+          <td class='nota-bold'>4601504241</td>
           <td>12/11/2025</td>
           <td>Substituir Ramal</td>
           <td>MONO</td>
@@ -433,8 +429,8 @@
           <td>DINARTE MARIZ</td>
           <td>RUA JOSE ROQUE 29</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="PARELHAS">
-          <td class="nota-bold">4901037831</td>
+        <tr data-base='PARELHAS' data-cidade='PARELHAS'>
+          <td class='nota-bold'>4901037831</td>
           <td>12/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -443,8 +439,8 @@
           <td>JOSE CLOVIS DE MEDEIROS</td>
           <td>RUA MARIA THEONIA BEZERRA 407</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="PARELHAS">
-          <td class="nota-bold">4601496567</td>
+        <tr data-base='PARELHAS' data-cidade='PARELHAS'>
+          <td class='nota-bold'>4601496567</td>
           <td>12/11/2025</td>
           <td>Alteração Contratual</td>
           <td>MONO</td>
@@ -453,8 +449,8 @@
           <td>SANTO ANTONIO DA COBRA</td>
           <td>PO SANTO ANTONIO 890</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="PARELHAS">
-          <td class="nota-bold">4601492503</td>
+        <tr data-base='PARELHAS' data-cidade='PARELHAS'>
+          <td class='nota-bold'>4601492503</td>
           <td>12/11/2025</td>
           <td>Mudar Local de Medidor</td>
           <td>MONO</td>
@@ -463,8 +459,8 @@
           <td>SAO SEBASTIAO</td>
           <td>RUA FRANCISCO CANDIDO DE MACEDO 76</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="CARNAUBA DOS DANTAS">
-          <td class="nota-bold">4801255199</td>
+        <tr data-base='PARELHAS' data-cidade='CARNAUBA DOS DANTAS'>
+          <td class='nota-bold'>4801255199</td>
           <td>13/11/2025</td>
           <td>Microgeração BT</td>
           <td>TRIF</td>
@@ -473,8 +469,8 @@
           <td>CENTRO</td>
           <td>RUA JOSE VENANCIO 704</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="PARELHAS">
-          <td class="nota-bold">4801253248</td>
+        <tr data-base='PARELHAS' data-cidade='PARELHAS'>
+          <td class='nota-bold'>4801253248</td>
           <td>13/11/2025</td>
           <td>Microgeração BT</td>
           <td>MONO</td>
@@ -483,8 +479,8 @@
           <td>COHAB</td>
           <td>RUA SEVERINO ARNALDO DE MEDEIROS 90</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="CARNAUBA DOS DANTAS">
-          <td class="nota-bold">4601495276</td>
+        <tr data-base='PARELHAS' data-cidade='CARNAUBA DOS DANTAS'>
+          <td class='nota-bold'>4601495276</td>
           <td>13/11/2025</td>
           <td>Alteração Contratual</td>
           <td>MONO</td>
@@ -493,8 +489,8 @@
           <td>ERMO</td>
           <td>PO ERMO 385</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="CARNAUBA DOS DANTAS">
-          <td class="nota-bold">4801253259</td>
+        <tr data-base='PARELHAS' data-cidade='CARNAUBA DOS DANTAS'>
+          <td class='nota-bold'>4801253259</td>
           <td>13/11/2025</td>
           <td>Microgeração BT</td>
           <td>MONO</td>
@@ -503,8 +499,8 @@
           <td>ERMO</td>
           <td>PO ERMO 9</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="EQUADOR">
-          <td class="nota-bold">4501970133</td>
+        <tr data-base='PARELHAS' data-cidade='EQUADOR'>
+          <td class='nota-bold'>4501970133</td>
           <td>13/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -513,8 +509,8 @@
           <td>BOA VISTA</td>
           <td>SI BOA VISTA 71</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="EQUADOR">
-          <td class="nota-bold">4501978622</td>
+        <tr data-base='PARELHAS' data-cidade='EQUADOR'>
+          <td class='nota-bold'>4501978622</td>
           <td>13/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -523,8 +519,8 @@
           <td>JOSE MARCELINO DE OLIVEIRA</td>
           <td>RUA JOSE PRIMO FILHO 335</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="JARDIM DO SERIDO">
-          <td class="nota-bold">4601505612</td>
+        <tr data-base='PARELHAS' data-cidade='JARDIM DO SERIDO'>
+          <td class='nota-bold'>4601505612</td>
           <td>13/11/2025</td>
           <td>Alteração Contratual</td>
           <td>TRIF</td>
@@ -533,8 +529,8 @@
           <td>NOVO HORIZONTE</td>
           <td>RUA JUVENCIO CUNHA 189</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="PARELHAS">
-          <td class="nota-bold">4601496727</td>
+        <tr data-base='PARELHAS' data-cidade='PARELHAS'>
+          <td class='nota-bold'>4601496727</td>
           <td>13/11/2025</td>
           <td>Mudar Local de Medidor</td>
           <td>MONO</td>
@@ -543,8 +539,8 @@
           <td>CENTRO</td>
           <td>RUA BERNARDINO SENA 775</td>
         </tr>
-        <tr data-base="PARELHAS" data-cidade="PARELHAS">
-          <td class="nota-bold">4501975438</td>
+        <tr data-base='PARELHAS' data-cidade='PARELHAS'>
+          <td class='nota-bold'>4501975438</td>
           <td>13/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -553,8 +549,8 @@
           <td>IVAN BEZERRA</td>
           <td>RUA FRANCISCO DE SOUZA BARROS 716, CS-</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="FLORANIA">
-          <td class="nota-bold">4901031030</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='FLORANIA'>
+          <td class='nota-bold'>4901031030</td>
           <td>22/09/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -563,8 +559,8 @@
           <td>DIZIMEIRO</td>
           <td>SI BUENOS AIRES 2, -PR</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="FLORANIA">
-          <td class="nota-bold">4901023851</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='FLORANIA'>
+          <td class='nota-bold'>4901023851</td>
           <td>22/09/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -573,8 +569,8 @@
           <td>PE DE SERRA</td>
           <td>PO PE DE SERRA 40</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="FLORANIA">
-          <td class="nota-bold">4901031625</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='FLORANIA'>
+          <td class='nota-bold'>4901031625</td>
           <td>06/10/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -583,8 +579,8 @@
           <td>JOAO DA CRUZ</td>
           <td>RUA MANOEL TOMAZ DA SILVA 241</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="TENENTE LAURENTINO CRUZ">
-          <td class="nota-bold">4901040626</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='TENENTE LAURENTINO CRUZ'>
+          <td class='nota-bold'>4901040626</td>
           <td>24/10/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>TRIF</td>
@@ -593,8 +589,8 @@
           <td>ZONA RURAL</td>
           <td>SI LAGOA 6000</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4501976816</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4501976816</td>
           <td>10/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -603,8 +599,8 @@
           <td>DOUTOR SILVIO BEZERRA DE MELO</td>
           <td>RUA SEVERINO RAMOS DE ARAUJO 261, AP- 006</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4801256854</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4801256854</td>
           <td>11/11/2025</td>
           <td>Microgeração BT</td>
           <td>TRIF</td>
@@ -613,8 +609,8 @@
           <td>DOUTOR SILVIO BEZERRA DE MELO</td>
           <td>AV PRESIDENTE GETULIO VARGAS 2285</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4801255171</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4801255171</td>
           <td>11/11/2025</td>
           <td>Microgeração BT</td>
           <td>MONO</td>
@@ -623,8 +619,8 @@
           <td>JK</td>
           <td>RUA PARELHAS 142</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4801256849</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4801256849</td>
           <td>11/11/2025</td>
           <td>Microgeração BT</td>
           <td>TRIF</td>
@@ -633,8 +629,8 @@
           <td>SAO FRANCISCO</td>
           <td>PO SAO FRANCISCO 9555</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4601502938</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4601502938</td>
           <td>11/11/2025</td>
           <td>Mudar Local de Medidor</td>
           <td>MONO</td>
@@ -643,8 +639,8 @@
           <td>CORONEL MANOEL SALUSTINO</td>
           <td>AV FRANCISCO BALDOMERO CHACON 808</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4501972881</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4501972881</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -653,8 +649,8 @@
           <td>GOV RADIR PEREIRA DE ARAUJO</td>
           <td>RUA GERALDO ALVES DA SILVA 52</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4901035221</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4901035221</td>
           <td>11/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -663,8 +659,8 @@
           <td>JK</td>
           <td>RUA DO TOPAZIO 131</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4601502940</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4601502940</td>
           <td>11/11/2025</td>
           <td>Alteração Contratual</td>
           <td>MONO</td>
@@ -673,8 +669,8 @@
           <td>MAXINARE</td>
           <td>PO MAXINARE 180</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4601490033</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4601490033</td>
           <td>11/11/2025</td>
           <td>Alteração Contratual</td>
           <td>TRIF</td>
@@ -683,8 +679,8 @@
           <td>PAIZINHO MARIA</td>
           <td>RUA JOAO BENTO DE SOUZA 145</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4601491111</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4601491111</td>
           <td>11/11/2025</td>
           <td>Mudar Local de Medidor</td>
           <td>MONO</td>
@@ -693,8 +689,8 @@
           <td>PARQUE DOURADO</td>
           <td>RUA PROFESSORA NAIR COSTA 948</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4501974379</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4501974379</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -703,8 +699,8 @@
           <td>ZONA RURAL</td>
           <td>SI PINHEIRO 40</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4801255200</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4801255200</td>
           <td>12/11/2025</td>
           <td>Microgeração BT</td>
           <td>MONO</td>
@@ -713,8 +709,8 @@
           <td>CORONEL MANOEL SALUSTINO</td>
           <td>RUA VEREADOR JOSE SALES SOBRINHO 305</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4801255174</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4801255174</td>
           <td>12/11/2025</td>
           <td>Microgeração BT</td>
           <td>MONO</td>
@@ -723,8 +719,8 @@
           <td>SAO LUIZ</td>
           <td>SI VENEZA 5</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="TENENTE LAURENTINO CRUZ">
-          <td class="nota-bold">4801256960</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='TENENTE LAURENTINO CRUZ'>
+          <td class='nota-bold'>4801256960</td>
           <td>12/11/2025</td>
           <td>Microgeração BT</td>
           <td>TRIF</td>
@@ -733,8 +729,8 @@
           <td>ZONA RURAL</td>
           <td>SI RIACHAO 201</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4901036794</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4901036794</td>
           <td>12/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>TRIF</td>
@@ -743,8 +739,8 @@
           <td>CENTRO</td>
           <td>AV DOUTOR SILVIO BEZERRA DE MELO 777</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4601491646</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4601491646</td>
           <td>12/11/2025</td>
           <td>Alteração Contratual</td>
           <td>TRIF</td>
@@ -753,8 +749,8 @@
           <td>CENTRO</td>
           <td>PC CRISTO REI 28</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4501978596</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4501978596</td>
           <td>12/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -763,8 +759,8 @@
           <td>CENTRO</td>
           <td>RUA MAJOR SERVULO 93</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4601497111</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4601497111</td>
           <td>12/11/2025</td>
           <td>Mudar Local de Medidor</td>
           <td>MONO</td>
@@ -773,8 +769,8 @@
           <td>CRUZ</td>
           <td>RUA ALCINDO SALUSTIANO 105</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4601501638</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4601501638</td>
           <td>12/11/2025</td>
           <td>Mudar Local de Medidor</td>
           <td>MONO</td>
@@ -783,8 +779,8 @@
           <td>PAIZINHO MARIA</td>
           <td>RUA JOSE BEZERRA DE ARAUJO 46</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4501976318</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4501976318</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -793,8 +789,8 @@
           <td>RADIR PEREIRA</td>
           <td>RUA DIOMEDES JUSTINO OLIVEIRA 26</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4501978115</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4501978115</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -803,8 +799,8 @@
           <td>RADIR PEREIRA</td>
           <td>RUA DIOMEDES JUSTINO OLIVEIRA 36</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4501974896</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4501974896</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -813,8 +809,8 @@
           <td>RADIR PEREIRA</td>
           <td>RUA DIOMEDES JUSTINO OLIVEIRA 46</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="CURRAIS NOVOS">
-          <td class="nota-bold">4501946072</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='CURRAIS NOVOS'>
+          <td class='nota-bold'>4501946072</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -823,8 +819,8 @@
           <td>ZONA RURAL</td>
           <td>SI LIVRAMENTO 10</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="FLORANIA">
-          <td class="nota-bold">4501974422</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='FLORANIA'>
+          <td class='nota-bold'>4501974422</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -833,8 +829,8 @@
           <td>CAJUEIRO</td>
           <td>PO CAJUEIRO 555</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="FLORANIA">
-          <td class="nota-bold">4501969427</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='FLORANIA'>
+          <td class='nota-bold'>4501969427</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>TRIF</td>
@@ -843,8 +839,8 @@
           <td>RAINHA DO PRADO</td>
           <td>RUA GUSTAVO CEZAR ALVES DE MEDEIROS 70</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="TENENTE LAURENTINO CRUZ">
-          <td class="nota-bold">4501975859</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='TENENTE LAURENTINO CRUZ'>
+          <td class='nota-bold'>4501975859</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -853,8 +849,8 @@
           <td>ZONA RURAL</td>
           <td>SI BOA VISTA 83</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="TENENTE LAURENTINO CRUZ">
-          <td class="nota-bold">4501975401</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='TENENTE LAURENTINO CRUZ'>
+          <td class='nota-bold'>4501975401</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -863,8 +859,8 @@
           <td>ZONA RURAL</td>
           <td>SI BOA VISTA 9</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="TENENTE LAURENTINO CRUZ">
-          <td class="nota-bold">4501944614</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='TENENTE LAURENTINO CRUZ'>
+          <td class='nota-bold'>4501944614</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -873,8 +869,8 @@
           <td>ZONA RURAL</td>
           <td>SI JOSE ANTONIO 235</td>
         </tr>
-        <tr data-base="CURRAIS NOVOS" data-cidade="TENENTE LAURENTINO CRUZ">
-          <td class="nota-bold">4901035213</td>
+        <tr data-base='CURRAIS NOVOS' data-cidade='TENENTE LAURENTINO CRUZ'>
+          <td class='nota-bold'>4901035213</td>
           <td>12/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -883,8 +879,8 @@
           <td>ZONA RURAL</td>
           <td>SI LANCHINHA 100</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501967730</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501967730</td>
           <td>28/10/2025</td>
           <td>Ligação Nova MT/AT SUBTERRÂNEA</td>
           <td>TRIF</td>
@@ -893,8 +889,8 @@
           <td>ZONA RURAL</td>
           <td>FZ PAI BASTIAO 1410</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501975293</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501975293</td>
           <td>10/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -903,8 +899,8 @@
           <td>BARBOSA DE BAIXO</td>
           <td>PO BARBOSA DE BAIXO 40</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="SAO JOAO DO SABUGI">
-          <td class="nota-bold">4501976229</td>
+        <tr data-base='CAICO' data-cidade='SAO JOAO DO SABUGI'>
+          <td class='nota-bold'>4501976229</td>
           <td>10/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -913,8 +909,8 @@
           <td>ZONA RURAL</td>
           <td>SI CAICARA 6</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4900976835</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4900976835</td>
           <td>11/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>TRIF</td>
@@ -923,8 +919,8 @@
           <td>ZONA RURAL</td>
           <td>SI SANTA CRUZ 6, SN</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4801256784</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4801256784</td>
           <td>11/11/2025</td>
           <td>Microgeração BT</td>
           <td>TRIF</td>
@@ -933,8 +929,8 @@
           <td>LAJINHA</td>
           <td>RUA DO CAMPO 57</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4801256780</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4801256780</td>
           <td>11/11/2025</td>
           <td>Microgeração BT</td>
           <td>TRIF</td>
@@ -943,8 +939,8 @@
           <td>MAYNARD</td>
           <td>AV DOM ADELINO DANTAS 510</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501973911</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501973911</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -953,8 +949,8 @@
           <td>ADJUNTO DIAS</td>
           <td>RUA ANTONIO V A DA NOBREGA 659</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4901039705</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4901039705</td>
           <td>11/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -963,8 +959,8 @@
           <td>BARRA NOVA</td>
           <td>RUA FRANCISCO COSTA 61</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4901037819</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4901037819</td>
           <td>11/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>TRIF</td>
@@ -973,8 +969,8 @@
           <td>CENTRO</td>
           <td>AV CORONEL MARTINIANO 1211, D</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501977609</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501977609</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -983,8 +979,8 @@
           <td>ITANS</td>
           <td>RUA JASIEL CUNHA 377</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="SAO JOAO DO SABUGI">
-          <td class="nota-bold">4501977614</td>
+        <tr data-base='CAICO' data-cidade='SAO JOAO DO SABUGI'>
+          <td class='nota-bold'>4501977614</td>
           <td>11/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -993,8 +989,8 @@
           <td>ZONA RURAL</td>
           <td>SI BARRO VERMELHO 6</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="SERRA NEGRA DO NORTE">
-          <td class="nota-bold">4901038757</td>
+        <tr data-base='CAICO' data-cidade='SERRA NEGRA DO NORTE'>
+          <td class='nota-bold'>4901038757</td>
           <td>11/11/2025</td>
           <td>Desligamento Definitivo B - OPTANTE</td>
           <td>TRIF</td>
@@ -1003,8 +999,8 @@
           <td>ZONA RURAL</td>
           <td>FZ CACIMBAS 9999</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4801255267</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4801255267</td>
           <td>12/11/2025</td>
           <td>Microgeração BT</td>
           <td>MONO</td>
@@ -1013,8 +1009,8 @@
           <td>RECREIO</td>
           <td>RUA CESAR RODRIGUES FECHINE 96</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4801255242</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4801255242</td>
           <td>12/11/2025</td>
           <td>Microgeração BT</td>
           <td>MONO</td>
@@ -1023,8 +1019,8 @@
           <td>SAMANAU</td>
           <td>RUA GALBIR BATISTA DE ARAUJO 219</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4801255177</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4801255177</td>
           <td>12/11/2025</td>
           <td>Microgeração BT</td>
           <td>TRIF</td>
@@ -1033,8 +1029,8 @@
           <td>ZONA RURAL</td>
           <td>SI MANHOSO 6624</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4901042679</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4901042679</td>
           <td>12/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -1043,8 +1039,8 @@
           <td>ALTO DA BOA VISTA</td>
           <td>RUA JORNALISTA SEVERINO F DE MEDEIRO 46, -FT</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501976865</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501976865</td>
           <td>12/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -1053,8 +1049,8 @@
           <td>BARRA NOVA</td>
           <td>RUA HILARINO AMANCIO PEREIRA 27</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501973291</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501973291</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>TRIF</td>
@@ -1063,8 +1059,8 @@
           <td>BOA PASSAGEM</td>
           <td>AV DOUTOR RUI MARIZ 156</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501976635</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501976635</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>TRIF</td>
@@ -1073,8 +1069,8 @@
           <td>BOA PASSAGEM</td>
           <td>RUA FRANCISCO GERMANO FILHO 417</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501973278</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501973278</td>
           <td>12/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -1083,8 +1079,8 @@
           <td>CANUTOS E FILHOS</td>
           <td>RUA REMIGIO DA NOBREGA FILHO 4</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501979648</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501979648</td>
           <td>12/11/2025</td>
           <td>Reativação BT</td>
           <td>TRIF</td>
@@ -1093,8 +1089,8 @@
           <td>CENTRO</td>
           <td>AV DOUTOR CARLINDO DE SOUZA DANTAS 130</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4901035818</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4901035818</td>
           <td>12/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -1103,8 +1099,8 @@
           <td>CENTRO</td>
           <td>RUA GENERINA VALE 1111</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501976735</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501976735</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT</td>
           <td>MONO</td>
@@ -1113,8 +1109,8 @@
           <td>CENTRO</td>
           <td>RUA JOAQUIM GORGONIO 141</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4901042684</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4901042684</td>
           <td>12/11/2025</td>
           <td>Desligamento Definitivo a Pedido - BT</td>
           <td>MONO</td>
@@ -1123,8 +1119,8 @@
           <td>CENTRO</td>
           <td>RUA VISITADOR FERNANDES 18</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501974442</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501974442</td>
           <td>12/11/2025</td>
           <td>Ligação Nova BT MUC</td>
           <td>MONO</td>
@@ -1133,8 +1129,8 @@
           <td>NOVA DESCOBERTA</td>
           <td>RUA CAPITAO ANTONIO MARTINS 180, AP-203</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501978590</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501978590</td>
           <td>12/11/2025</td>
           <td>Reativação BT</td>
           <td>TRIF</td>
@@ -1143,8 +1139,8 @@
           <td>PENEDO</td>
           <td>RUA MARTINHO ELPIDIO 373</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="CAICO">
-          <td class="nota-bold">4501973297</td>
+        <tr data-base='CAICO' data-cidade='CAICO'>
+          <td class='nota-bold'>4501973297</td>
           <td>12/11/2025</td>
           <td>Reativação BT</td>
           <td>MONO</td>
@@ -1153,8 +1149,8 @@
           <td>SOLEDADE</td>
           <td>RUA CICERO ANTONIO DA SILVA 150, AP- 001</td>
         </tr>
-        <tr data-base="CAICO" data-cidade="SAO JOAO DO SABUGI">
-          <td class="nota-bold">4601492804</td>
+        <tr data-base='CAICO' data-cidade='SAO JOAO DO SABUGI'>
+          <td class='nota-bold'>4601492804</td>
           <td>12/11/2025</td>
           <td>Alteração Contratual</td>
           <td>TRIF</td>
@@ -1167,47 +1163,60 @@
     </table>
   </div>
   <script>
-    const bases = [];
-    bases.push("SANTA CRUZ");
-    bases.push("PARELHAS");
-    bases.push("CURRAIS NOVOS");
-    bases.push("CAICO");
-    const cidades = [];
-    cidades.push("JACANA");
-    cidades.push("JAPI");
-    cidades.push("CAMPO REDONDO");
-    cidades.push("SANTA CRUZ");
-    cidades.push("SAO BENTO DO TRAIRI");
-    cidades.push("LAJES PINTADA");
-    cidades.push("EQUADOR");
-    cidades.push("JARDIM DO SERIDO");
-    cidades.push("CARNAUBA DOS DANTAS");
-    cidades.push("PARELHAS");
-    cidades.push("FLORANIA");
-    cidades.push("TENENTE LAURENTINO CRUZ");
-    cidades.push("CURRAIS NOVOS");
-    cidades.push("CAICO");
-    cidades.push("SAO JOAO DO SABUGI");
-    cidades.push("SERRA NEGRA DO NORTE");
-    function populateFilters() {
-      const selBase = document.getElementById('filtroBase');
-      const selCidade = document.getElementById('filtroCidade');
-      bases.sort();
-      bases.forEach(function(b){ if(b && b.trim()!==''){ const o=document.createElement('option'); o.value=b; o.text=b; selBase.appendChild(o);} });
-      cidades.sort();
-      cidades.forEach(function(c){ if(c && c.trim()!==''){ const o=document.createElement('option'); o.value=c; o.text=c; selCidade.appendChild(o);} });
-      selBase.addEventListener('change', applyFilters);
-      selCidade.addEventListener('change', applyFilters);
+    const mapaBaseCidade = {
+      'CAICO': ["CAICO","IPUEIRA","SAO JOAO DO SABUGI","SERRA NEGRA DO NORTE","TIMBAUBA DOS BATISTAS"],
+      'CURRAIS NOVOS': ["CURRAIS NOVOS","FLORANIA","SAO VICENTE","TENENTE LAURENTINO CRUZ"],
+      'EPS': ["JARDIM DE PIRANHAS","SAO FERNANDO","JUCURUTU","SAO JOSE DO SERIDO","ACARI","CRUZETA","BODO","CERRO CORA","LAGOA NOVA"],
+      'PARELHAS': ["EQUADOR","SANTANA DO SERIDO","JARDIM DO SERIDO","OURO BRANCO","CARNAUBA DOS DANTAS","PARELHAS"],
+      'SANTA CRUZ': ["CAMPO REDONDO","LAJES PINTADA","CORONEL EZEQUIEL","JACANA","JAPI","SANTA CRUZ","SAO BENTO DO TRAIRI"],
+    };
+    const filtroBase = document.getElementById('filtroBase');
+    const filtroCidade = document.getElementById('filtroCidade');
+
+    function popularBases() {
+      const bases = Object.keys(mapaBaseCidade).sort();
+      bases.forEach(b => {
+        const opt = document.createElement('option');
+        opt.value = b; opt.text = b;
+        filtroBase.appendChild(opt);
+      });
     }
-    function applyFilters() {
-      const b = document.getElementById('filtroBase').value;
-      const c = document.getElementById('filtroCidade').value;
-      const rows = document.querySelectorAll('#tblNotas tbody tr');
-      let count = 0;
-      rows.forEach(function(r){ const rb=r.getAttribute('data-base')||''; const rc=r.getAttribute('data-cidade')||''; let show=true; if(b && b!=='' && rb!==b) show=false; if(c && c!=='' && rc!==c) show=false; r.style.display = show ? '' : 'none'; if(show) count++; });
-      document.getElementById('contadorTotal').innerText = 'Total: ' + count;
+
+    function atualizarCidades() {
+      const baseSel = filtroBase.value;
+      filtroCidade.innerHTML = '<option value="">-- Todas --</option>';
+      if (baseSel && mapaBaseCidade[baseSel]) {
+        mapaBaseCidade[baseSel].sort().forEach(c => {
+          const opt = document.createElement('option');
+          opt.value = c; opt.text = c; filtroCidade.appendChild(opt);
+        });
+      }
+      aplicarFiltros();
     }
-    document.addEventListener('DOMContentLoaded', function(){ populateFilters(); applyFilters(); });
+
+    function aplicarFiltros() {
+      const b = filtroBase.value;
+      const c = filtroCidade.value;
+      const linhas = document.querySelectorAll('#tblNotas tbody tr');
+      let cont = 0;
+      linhas.forEach(l => {
+        const lb = l.getAttribute('data-base');
+        const lc = l.getAttribute('data-cidade');
+        let exibir = true;
+        if (b && b !== lb) exibir = false;
+        if (c && c !== lc) exibir = false;
+        l.style.display = exibir ? '' : 'none';
+        if (exibir) cont++;
+      });
+      document.getElementById('contadorTotal').innerText = 'Total: ' + cont;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      popularBases();
+      filtroBase.addEventListener('change', atualizarCidades);
+      filtroCidade.addEventListener('change', aplicarFiltros);
+      aplicarFiltros();
+    });
   </script>
 </div>
 </body>
